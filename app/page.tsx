@@ -454,7 +454,12 @@ export default function Home() {
             Have a project in mind? Let's create something amazing together!
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-            <a href="mailto:ductham2004@gmail.com" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=ductham2004@gmail.com&su=Liên hệ từ Website"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300"
+            >
               📧 Send Email
             </a>
             <a href="/resume.pdf" download className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300">
